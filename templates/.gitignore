@@ -1,0 +1,14 @@
+.agent
+node_modules
+dist
+build
+coverage
+.env
+.env.*
+!.env.example
+.next
+.nuxt
+.cache
+.tmp
+.DS_Store
+*.log

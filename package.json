@@ -1,0 +1,41 @@
+{
+  "name": "create-cadencecode-ai-kit",
+  "version": "1.0.0",
+  "description": "Bootstrap da CadenceCode para projetos guiados por IA com documentação, guardrails e contexto forte de segurança.",
+  "type": "module",
+  "bin": {
+    "ai-kit": "./bin/cli.js",
+    "cadencecode-ai-kit": "./bin/cli.js",
+    "create-cadencecode-ai-kit": "./bin/cli.js"
+  },
+  "files": [
+    "bin",
+    "templates",
+    "README.md"
+  ],
+  "keywords": [
+    "ai",
+    "cli",
+    "create",
+    "initializer",
+    "scaffold",
+    "documentation",
+    "engineering",
+    "security",
+    "agents",
+    "prompting",
+    "architecture"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node ./bin/cli.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "fs-extra": "^11.2.0"
+  }
+}
