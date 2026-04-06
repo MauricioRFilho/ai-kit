@@ -91,6 +91,16 @@ Ao rodar o CLI, o kit:
 
 O foco atual e preparar contexto e guardrails, nao gerar a aplicacao em si.
 
+Fluxo sugerido de uso:
+
+```mermaid
+flowchart LR
+    A[TASK.md] --> B[PLAN.md]
+    B --> C[Implementacao]
+    C --> D[Docs]
+    D --> E[ARCH_DECISIONS.md]
+```
+
 ## Security-First Para Projetos Com IA
 
 Este kit foi fortalecido para um cenario comum hoje: pessoas que nao sao programadoras usando IA para construir software.
